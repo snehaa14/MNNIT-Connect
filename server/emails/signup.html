@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MNNIT Connect Registration OTP</title>
+  <style>
+    body {
+      font-family: 'Helvetica', Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .email-container {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .email-header {
+      background-color: #4caf50;
+      color: #ffffff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .email-header h1 {
+      font-size: 26px;
+      margin: 0;
+    }
+    .email-subheader {
+      background-color: #ffffff;
+      color: #666;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .email-body {
+      padding: 30px;
+      color: #333333;
+    }
+    .email-body h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .email-body p {
+      font-size: 16px;
+      line-height: 1.8;
+      margin-bottom: 25px;
+      color: #666666;
+    }
+    .otp-container {
+      background-color: #f9f9f9;
+      border: 1px dashed #4caf50;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .otp-container h3 {
+      font-size: 24px;
+      margin: 0;
+      color: #4caf50;
+    }
+    .cta-btn {
+      display: inline-block;
+      background-color: #4caf50;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 50px;
+      margin-bottom: 30px;
+    }
+    .illustration {
+      text-align: center;
+      padding: 20px;
+    }
+    .illustration img {
+      width: 40%;
+      max-width: 300px;
+      margin: 0 auto;
+      display: block;
+    }
+    .info-section {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      color: #666;
+    }
+    .info-section div {
+      display: inline-block;
+      width: 30%;
+      margin: 10px;
+      text-align: center;
+    }
+    .info-section img {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 10px;
+    }
+    .info-section p {
+      font-size: 14px;
+    }
+    .email-footer {
+      background-color: #4caf50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+    .email-footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="email-container">
+    <!-- Header -->
+    <div class="email-header">
+      <h1>MNNIT Connect</h1>
+    </div>
+
+    <!-- Subheader -->
+    <div class="email-subheader">
+      Your OTP for registration with MNNIT Connect is below. Let's get started!
+    </div>
+
+    <!-- Body -->
+    <div class="email-body">
+      <h2>Hey there!</h2>
+      <p>We are excited to have you onboard with <strong>MNNIT Connect</strong>, a platform that helps students and alumni connect, share knowledge, post jobs, and collaborate. Use the OTP below to complete your registration:</p>
+
+      <!-- OTP -->
+      <div class="otp-container">
+        <h3>{{OTP}}</h3> <!-- This placeholder will be replaced with the actual OTP -->
+      </div>
+
+      <!-- Illustration -->
+      <div class="illustration">
+        <img src="https://i.pinimg.com/736x/ab/90/85/ab908510af9b6facbf2c230b84e922f0.jpg" alt="MNNIT Connect Illustration">
+      </div>
+
+      <p>If you didn’t request this OTP, please ignore this email.</p>
+    </div>
+
+    <!-- Info Section -->
+    <div class="info-section">
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Connect Icon">
+        <p><strong>Connect</strong> with students and alumni worldwide.</p>
+      </div>
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/1006/1006264.png" alt="Collaborate Icon">
+        <p><strong>Collaborate</strong> on projects, ideas, and career opportunities.</p>
+      </div>
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/891/891462.png" alt="Grow Icon">
+        <p><strong>Grow</strong> your network and advance your career.</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="email-footer">
+      <p>&copy; 2025 MNNIT Connect. All rights reserved.</p>
+    </div>
+  </div>
+
+</body>
+</html>
