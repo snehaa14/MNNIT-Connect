@@ -1,0 +1,15 @@
+# Node modules
+**/node_modules
+**/dist
+**/.vite
+
+# Logs
+*.log
+
+# dotenv
+**/.env
+
+# IDE
+.vscode
+*.swp
+.DS_Store
